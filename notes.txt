@@ -97,7 +97,28 @@ We must create the variable before we try to assign a value to it
     std::string input;
     std::cin >> input;
 
-    As soon as there is a space is assumed that is a new input, so from "Hello, World!" it will print "Hello,"
+    As soon as there is a space is assumed that is a new input, so from "Hello, World!" it will print "Hello,", this can lead to leftovers in the Input Buffer that will be catch in any future input corrupting the program.
+
+OPERATORS
+
+    · ARITHMETIC
+    Mini-function that aloow us to either modify values or produce new results by combinig values
+        Arithmetic: + - * / %
+
+    int age = 28;
+    int newAge = age + 1;
+
+    We can combine different types of numbers
+    We can chage the original value if we want
+
+    int age1 = 28;
+    age1 = age1 + 1;
+
+    We can use + to strings in order to append
+
+    · ASSIGMENT
+    Assings some value to a variable
+    Can be combined with arithmetic operators
 
 
 

@@ -22,5 +22,7 @@ int main() {
     std::cout << "2: " << input4 << '\n';
     std::cout << "3: " << input3 << input4 << '\n';
 
-    return 0;
+    int input5; // To have an integer as input
+    std::cin >> input5;
+    std::cout << input5 << std::endl; // If the input is not an integer the outpu will 0
 }
